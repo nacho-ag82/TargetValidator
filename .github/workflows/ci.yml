@@ -1,9 +1,10 @@
 
+
 name: Integración Continua
 on: [push, pull_request]
 jobs:
   test:
-    runs-on: windows-lastest
+    runs-on: windows-latest
     steps:
       - name: Clonar el repositorio
         uses: actions/checkout@v3
