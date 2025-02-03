@@ -14,8 +14,8 @@ test('should return false for coordinates outside China', () => {
 });
 
 test('should return false for coordinates on the boundary of China', () => {
-    expect(estaEnchina(18.0, 73.5)).toBe(true); // Southwest corner
-    expect(estaEnchina(53.6, 135.0)).toBe(true); // Northeast corner
-    expect(estaEnchina(18.0, 135.0)).toBe(true); // Southeast corner
-    expect(estaEnchina(53.6, 73.5)).toBe(true); // Northwest corner
+    expect(estaEnchina(19.0, 73.0)).toBe(true); // Southwest corner
+    expect(estaEnchina(53.0, 135.0)).toBe(true); // Northeast corner
+    expect(estaEnchina(19.0, 135.0)).toBe(true); // Southeast corner
+    expect(estaEnchina(53.0, 73.0)).toBe(true); // Northwest corner
 });

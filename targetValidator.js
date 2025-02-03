@@ -1,8 +1,8 @@
 function estaEnchina(lat, lon) {
     // Define the bounding box for China
-    const minLat = 18.0;
-    const maxLat = 53.6;
-    const minLon = 73.5;
+    const minLat = 17.0;
+    const maxLat = 53.0;
+    const minLon = 73.0;
     const maxLon = 135.0;
 
     // Check if the given coordinates are within the bounding box
