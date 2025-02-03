@@ -3,7 +3,7 @@ name: Integración Continua
 on: [push, pull_request]
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: windows-lastest
     steps:
       - name: Clonar el repositorio
         uses: actions/checkout@v3
